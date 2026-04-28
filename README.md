@@ -1,37 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 Grocery E-Commerce App
 
-## Getting Started
+A fully responsive grocery e-commerce application built with modern web technologies using Next.js and TypeScript.
 
-First, run the development server:
+The app allows users to browse products in a clean card-based layout, view detailed product information, manage their shopping cart, and simulate a checkout process.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* 🥦 Browse grocery products in a card-based UI
+* 🔍 View detailed product information
+* 🛒 Add products to cart
+* ➕ Increase / ➖ decrease product quantity
+* 💳 Simulated checkout with Stripe integration
+* 📦 View previous orders in "My Orders" section
+* 📱 Fully responsive design (mobile, tablet, desktop)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+* **Node.js**
+* **Next.js**
+* **React / React DOM**
+* **TypeScript**
+* **Tailwind CSS**
+* **PostCSS / LightningCSS**
+* **MongoDB + Mongoose**
+* **Stripe** (payment simulation)
+* **sharp / libvips** (image processing)
+* **styled-jsx**
+* **react-icons, react-toastify**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧱 Core Functionality
 
-## Deploy on Vercel
+* Product listing with dynamic rendering
+* Product detail pages
+* Cart state management
+* Order flow simulation
+* Backend integration with MongoDB
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# manav-ecommerce
+## 💳 Payment Flow
+
+Users can proceed to checkout from the cart page using the **"Buy Now"** button.
+They are redirected to a simulated payment page powered by Stripe integration.
+
+---
+
+## 📦 Orders
+
+The **"My Orders"** section allows users to view previously placed orders, providing a basic order history experience.
+
+---
+
+
+## 🎬 Demo
+
+
+
+https://github.com/user-attachments/assets/e4895ffa-2f6a-409f-accd-90b88bd1a730
+
+
+
+---
+
+
+## 💡 Notes
+
+This project focuses on building a scalable full-stack e-commerce architecture using Next.js, with emphasis on clean UI, responsive design, and real-world features such as cart management and payment flow.
+
+---
